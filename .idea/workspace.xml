@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="56b8925e-81c1-4c12-9e37-78e7a039fc1d" name="变更" comment="测试">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/lesson-init" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/apache-maven-3.6.1" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="11" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+  </component>
+  <component name="ProjectId" id="2bu9N1dS0CwIp0cxjtBGELTyb34" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-18",
+    "last_opened_file_path": "H:/code/ReHaiDaXueTang",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Lombok",
+    "spring.configuration.checksum": "68352e1ce65e33c3725c80389847308f"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\code\tianjixuetang\tj-learning\src\main\java\com\tianji\learning\domain\vo" />
+      <recent name="H:\code\tianjixuetang\tj-learning\src\main\java\com\tianji\learning\domain\query" />
+      <recent name="H:\code\tianjixuetang\tj-learning\src\main\java\com\tianji\learning\enums" />
+      <recent name="H:\code\tianjixuetang\tj-remark\src\main\java\com\tianji\remark\domain\dto" />
+      <recent name="H:\code\tianjixuetang\tj-learning\src\main\java\com\tianji\learning\domain\dto" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tianji.remark.service.Impl" />
+      <recent name="com.tianji.remark.domain.dto" />
+      <recent name="com.tianji.api.dto.remark" />
+      <recent name="com.tianji.learning.controller" />
+      <recent name="com.tianji.learning.mq" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LearningApplication (1)">
+    <configuration name="CaffeineTest.testBasicOps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tj-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lx" />
+      <option name="MAIN_CLASS_NAME" value="com.lx.CaffeineTest" />
+      <option name="METHOD_NAME" value="testBasicOps" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MPTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tj-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lx" />
+      <option name="MAIN_CLASS_NAME" value="com.lx.MPTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MPTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tj-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lx" />
+      <option name="MAIN_CLASS_NAME" value="com.lx.MPTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MPTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tj-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lx" />
+      <option name="MAIN_CLASS_NAME" value="com.lx.MPTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tj-trade-debug" type="Remote">
+      <module name="tj-trade" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="192.168.150.101" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-course" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.course.CourseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-data" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.data.DataCenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-exam" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.exam.ExamApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearningApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="local" />
+      <module name="tj-learning" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.learning.LearningApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8097" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearningApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="local" />
+      <module name="tj-learning" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.learning.LearningApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-media" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.media.MediaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-message-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.message.MessageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-pay-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.pay.PayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemarkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="local" />
+      <module name="tj-remark" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.remark.RemarkApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tianji.remark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.search.SearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TradeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="tj-trade" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.trade.TradeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="local" />
+      <module name="tj-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MPTest.test4" />
+      <item itemvalue="JUnit.CaffeineTest.testBasicOps" />
+      <item itemvalue="JUnit.MPTest.test3" />
+      <item itemvalue="JUnit.MPTest.test2" />
+      <item itemvalue="Spring Boot.AuthApplication" />
+      <item itemvalue="Spring Boot.CourseApplication" />
+      <item itemvalue="Spring Boot.DataCenterApplication" />
+      <item itemvalue="Spring Boot.ExamApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.LearningApplication" />
+      <item itemvalue="Spring Boot.LearningApplication (1)" />
+      <item itemvalue="Spring Boot.MediaApplication" />
+      <item itemvalue="Spring Boot.MessageApplication" />
+      <item itemvalue="Spring Boot.PayApplication" />
+      <item itemvalue="Spring Boot.SearchApplication" />
+      <item itemvalue="Spring Boot.TradeApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.RemarkApplication" />
+      <item itemvalue="远程 JVM 调试.tj-trade-debug" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MPTest.test4" />
+        <item itemvalue="Spring Boot.RemarkApplication" />
+        <item itemvalue="JUnit.CaffeineTest.testBasicOps" />
+        <item itemvalue="JUnit.MPTest.test3" />
+        <item itemvalue="JUnit.MPTest.test2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="56b8925e-81c1-4c12-9e37-78e7a039fc1d" name="变更" comment="" />
+      <created>1707054058291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707054058291</updated>
+      <workItem from="1707054061014" duration="31000" />
+      <workItem from="1707054129195" duration="4957000" />
+      <workItem from="1707210349305" duration="666000" />
+      <workItem from="1707724833636" duration="750000" />
+      <workItem from="1707747271850" duration="300000" />
+      <workItem from="1708050069966" duration="5962000" />
+      <workItem from="1708134241035" duration="1267000" />
+      <workItem from="1708135543287" duration="4697000" />
+      <workItem from="1708932660127" duration="16281000" />
+      <workItem from="1709096672893" duration="31561000" />
+      <workItem from="1709343694541" duration="22563000" />
+      <workItem from="1709457656563" duration="27717000" />
+      <workItem from="1709597590620" duration="317000" />
+      <workItem from="1709598208362" duration="356000" />
+      <workItem from="1709598740489" duration="7000" />
+      <workItem from="1709599297809" duration="56000" />
+      <workItem from="1709599399413" duration="85000" />
+      <workItem from="1709599517590" duration="21400000" />
+      <workItem from="1709714038725" duration="3492000" />
+      <workItem from="1709728477265" duration="2970000" />
+      <workItem from="1709731832743" duration="61010000" />
+      <workItem from="1710148850141" duration="11353000" />
+      <workItem from="1710212425560" duration="12439000" />
+      <workItem from="1710495117513" duration="10000" />
+      <workItem from="1711075310739" duration="1194000" />
+      <workItem from="1712803513150" duration="2362000" />
+      <workItem from="1712807433799" duration="164000" />
+    </task>
+    <task id="LOCAL-00001" summary="解决删除订单失败的问题">
+      <created>1708086643665</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708086643665</updated>
+    </task>
+    <task id="LOCAL-00002" summary="解决删除订单失败的问题">
+      <created>1708088219175</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708088219175</updated>
+    </task>
+    <task id="LOCAL-00003" summary="我的课表相关接口开发">
+      <created>1709281224394</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709281224394</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修正类型匹配问题">
+      <created>1709283021814</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709283021814</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修正类型匹配问题">
+      <created>1709283174088</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709283174088</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修正类型匹配问题">
+      <created>1709283341487</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709283341487</updated>
+    </task>
+    <task id="LOCAL-00007" summary="修正类型匹配问题">
+      <created>1709283512097</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709283512097</updated>
+    </task>
+    <task id="LOCAL-00008" summary="修正类型匹配问题">
+      <created>1709283667135</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709283667135</updated>
+    </task>
+    <task id="LOCAL-00009" summary="修正类型匹配问题">
+      <created>1709283749684</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709283749684</updated>
+    </task>
+    <task id="LOCAL-00010" summary="完成了问答系统、点赞系统、积分系统、排行榜系统的开发与测试">
+      <created>1710338031320</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710338031320</updated>
+    </task>
+    <task id="LOCAL-00011" summary="完成了问答系统、点赞系统、积分系统、排行榜系统的开发与测试">
+      <created>1712805041761</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712805041761</updated>
+    </task>
+    <task id="LOCAL-00012" summary="测试">
+      <created>1712806811100</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712806811101</updated>
+    </task>
+    <task id="LOCAL-00013" summary="测试">
+      <created>1712806862103</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712806862104</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="解决删除订单失败的问题" />
+    <MESSAGE value="我的课表相关接口开发" />
+    <MESSAGE value="修正类型匹配问题" />
+    <MESSAGE value="完成了问答系统、点赞系统、积分系统、排行榜系统的开发与测试" />
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Remote">
+        <watch expression="id" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
