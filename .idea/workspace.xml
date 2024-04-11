@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56b8925e-81c1-4c12-9e37-78e7a039fc1d" name="变更" comment="项目起始代码以及个人编写代码（点赞系统、视频播放进度系统、积分排行榜系统的开发与测试）拷贝">
+    <list default="true" id="56b8925e-81c1-4c12-9e37-78e7a039fc1d" name="变更" comment="README编写">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -393,7 +394,7 @@
       <workItem from="1712807433799" duration="164000" />
       <workItem from="1712807613463" duration="1147000" />
       <workItem from="1712808777197" duration="344000" />
-      <workItem from="1712814348771" duration="2219000" />
+      <workItem from="1712814348771" duration="3999000" />
     </task>
     <task id="LOCAL-00001" summary="解决删除订单失败的问题">
       <created>1708086643665</created>
@@ -507,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712815758726</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="README编写">
+      <created>1712816608648</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1712816608648</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,11 +539,11 @@
     <MESSAGE value="修正类型匹配问题" />
     <MESSAGE value="完成了问答系统、点赞系统、积分系统、排行榜系统的开发与测试" />
     <MESSAGE value="测试" />
-    <MESSAGE value="README编写" />
     <MESSAGE value="项目基础代码拷贝" />
     <MESSAGE value="项目起始代码以及个人编写代码拷贝" />
     <MESSAGE value="项目起始代码以及个人编写代码（点赞系统、视频播放进度系统、积分排行榜系统的开发与测试）拷贝" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目起始代码以及个人编写代码（点赞系统、视频播放进度系统、积分排行榜系统的开发与测试）拷贝" />
+    <MESSAGE value="README编写" />
+    <option name="LAST_COMMIT_MESSAGE" value="README编写" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
