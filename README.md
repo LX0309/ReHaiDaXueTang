@@ -56,7 +56,7 @@ ReHaiDaXueTang
 #### 实现简介
 从后台实现来看，点赞就是新增一条点赞记录，取消就是删除这条记录。为了方便前端交互，这两个合并为一个接口。 
 #### 流程图
-![img.png](img.png)
+![img.png](src/main/resources/img.png)
 ### 2.批量查询点赞状态（LikedRecordController）
 Redis中提供了一个功能Pipeline，可以在一次请求中执行多个命令，实现批处理效果。
 ```shell
@@ -66,22 +66,22 @@ SISMEMBER bizId userId
 ## 二、积分、赛季排行榜功能（tj-learning）
 ### 1.签到功能（SignRecordController）
 #### Redis-BitMap数据结构实现（只需要31位就能记录一个用户一个月签到情况）
-![img_1.png](img_1.png)
+![img_1.png](src/main/resources/img_1.png)
 ### 2.当前赛季排行榜（LikedRecordController）
 #### Redis-SortedSet实现
 Redis的SortedSet底层采用了跳表的数据结构，因此可以非常高效的实现排序功能，百万用户排序轻松搞定。而且每当用户积分发生变更时，我们可以实时更新Redis中的用户积分，而SortedSet也会实时更新排名。实现起来简单、高效，实时性也非常好。缺点就是需要一直占用Redis的内存，当用户量达到数千万时，性能有一定的下降。
-![img_2.png](img_2.png)
+![img_2.png](src/main/resources/img_2.png)
 ### 3.历史赛季排行榜（LikedRecordController）
 #### 海量数据存储策略
-![img_3.png](img_3.png)
+![img_3.png](src/main/resources/img_3.png)
 #### MySQL水平分表与xxl-Job分布式任务实现
 按照赛季拆分，每一个赛季是一个独立的表；使用Mybatis-Plus动态表名插件
-![img_4.png](img_4.png)
+![img_4.png](src/main/resources/img_4.png)
 三个任务实现
-![img_5.png](img_5.png)
+![img_5.png](src/main/resources/img_5.png)
 ## 三、视频播放进度功能（tj-learning）
 ### 1.播放进度记录方案改进（LearningRecordServiceImpl）
-![img_6.png](img_6.png)
+![img_6.png](src/main/resources/img_6.png)
 ## 四、问答系统（tj-learning）
 简单CUDR编写，详细代码为
 
