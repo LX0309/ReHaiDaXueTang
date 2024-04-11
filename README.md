@@ -53,8 +53,15 @@ ReHaiDaXueTang
 
 ## 一、点赞功能（tj-remark）
 ### 1.点赞/取消赞（LikedRecordController）
-
+#### 实现简介
+从后台实现来看，点赞就是新增一条点赞记录，取消就是删除这条记录。为了方便前端交互，这两个合并为一个接口。 
+#### 流程图
+![img.png](img.png)
 ### 2.批量查询点赞状态（LikedRecordController）
-## 二、赛季排行榜功能（tj-user）
-## 三、视频播放进度功能（tj-user）
+## 二、积分、赛季排行榜功能（tj-learning）
+### 1.签到功能Redis-BitMap实现（SignRecordController）
+### 2.当前赛季排行榜Redis-sortSet实现（LikedRecordController）
+### 3.历史赛季排行榜MySQL分表实现（LikedRecordController）
+## 三、视频播放进度功能（tj-learning）
+### 1.播放进度记录方案改进（LearningRecordServiceImpl）
 ## 四、问答系统（tj-user）
