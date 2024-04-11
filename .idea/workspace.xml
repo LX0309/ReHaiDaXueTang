@@ -4,11 +4,653 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56b8925e-81c1-4c12-9e37-78e7a039fc1d" name="变更" comment="README编写">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/startup.sh" afterDir="false" />
+    <list default="true" id="56b8925e-81c1-4c12-9e37-78e7a039fc1d" name="变更" comment="项目起始代码以及个人编写代码（点赞系统、视频播放进度系统、积分排行榜系统的开发与测试）拷贝">
+      <change afterPath="$PROJECT_DIR$/tj-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/annotations/EnableCategoryCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/cache/CategoryCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/cache/RoleCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/client/auth/AuthClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/client/course/CatalogueClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/client/course/CategoryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/client/course/CourseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/client/course/SubjectClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/client/exam/ExamClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/client/learning/LearningClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/client/learning/fallback/LearningClientFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/client/remark/fallback/RemarkClientFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/client/remark/remarkClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/client/search/SearchClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/client/trade/TradeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/client/trade/fallback/TradeClientFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/client/user/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/client/user/fallback/UserClientFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/config/CategoryCacheConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/config/FallbackConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/config/RequestIdRelayConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/config/RoleCacheConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/constants/CourseStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/constants/SmsConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/IdAndNumDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/auth/RoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/course/CataSimpleInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/course/CatalogueDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/course/CategoryBasicDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/course/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/course/CourseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/course/CourseFullInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/course/CoursePurchaseInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/course/CourseSearchDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/course/CourseSimpleInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/course/MediaQuoteDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/course/SectionInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/course/SubNumAndCourseNumDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/course/SubjectDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/exam/QuestionBizDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/exam/QuestionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/leanring/LearningLessonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/leanring/LearningRecordDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/leanring/LearningRecordFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/remark/LikedTimesDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/sms/SmsInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/trade/OrderBasicDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/user/LoginFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/user/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-common/src/main/java/com/tianji/auth/common/constants/AuthErrorInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-common/src/main/java/com/tianji/auth/common/constants/JwtConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-common/src/main/java/com/tianji/auth/common/domain/PrivilegeRoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-gateway-sdk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-gateway-sdk/src/main/java/com/tianji/authsdk/gateway/config/AuthAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-gateway-sdk/src/main/java/com/tianji/authsdk/gateway/util/AuthUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-gateway-sdk/src/main/java/com/tianji/authsdk/gateway/util/JwtSignerHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-gateway-sdk/src/main/resources/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-gateway-sdk/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-resource-sdk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-resource-sdk/src/main/java/com/tianji/authsdk/resource/config/FeignRelayUserAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-resource-sdk/src/main/java/com/tianji/authsdk/resource/config/ResourceAuthProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-resource-sdk/src/main/java/com/tianji/authsdk/resource/config/ResourceInterceptorConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-resource-sdk/src/main/java/com/tianji/authsdk/resource/interceptors/FeignRelayUserInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-resource-sdk/src/main/java/com/tianji/authsdk/resource/interceptors/LoginAuthInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-resource-sdk/src/main/java/com/tianji/authsdk/resource/interceptors/UserInfoInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-resource-sdk/src/main/resources/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-resource-sdk/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/AuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/config/AuthConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/constants/AuthConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/controller/JwkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/controller/PrivilegeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/domain/dto/MenuDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/domain/dto/PrivilegeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/domain/po/AccountRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/domain/po/LoginRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/domain/po/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/domain/po/Privilege.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/domain/po/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/domain/po/RoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/domain/po/RolePrivilege.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/domain/vo/LoginRecordVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/domain/vo/MenuOptionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/domain/vo/PrivilegeOptionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/mapper/AccountRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/mapper/LoginRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/mapper/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/mapper/PrivilegeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/mapper/RoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/mapper/RolePrivilegeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/service/IAccountRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/service/ILoginRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/service/IMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/service/IPrivilegeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/service/IRoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/service/IRolePrivilegeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/service/IRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/service/impl/AccountRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/service/impl/LoginRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/service/impl/PrivilegeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/service/impl/RoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/service/impl/RolePrivilegeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/task/LoadPrivilegeRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/util/JwtTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java/com/tianji/auth/util/PrivilegeCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/resources/bootstrap-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/resources/mapper/AccountRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/resources/mapper/IPointsBoardSeasonService.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/resources/mapper/LoginRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/resources/mapper/RoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/resources/mapper/RolePrivilegeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/resources/mapper/StatusEnumValid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/resources/tjxt.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/tjxt.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/mq/BasicIdMessageProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/mq/DelayedMessageProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/mq/MqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/mq/RabbitMqHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/mvc/JsonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/mvc/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/mvc/ParamCheckerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/mvc/advice/CommonExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/mvc/advice/WrapperResponseBodyAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/mvc/aspects/CheckerAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/mvc/converter/WrapperResponseMessageConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/mybatis/BaseMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/mybatis/MyBatisAutoFillInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/mybatis/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/redisson/RedissonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/redisson/annotations/Lock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/redisson/aspect/LockAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/redisson/enums/LockStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/redisson/enums/LockType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/swagger/BaseSwaggerResponseBuilderPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/swagger/BaseSwaggerResponseModelPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/swagger/Knife4jConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/swagger/SwaggerConfigProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/xxljob/XxlJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/xxljob/XxlJobProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/constants/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/constants/ErrorInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/constants/MqConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/constants/RegexConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/domain/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/domain/dto/BaseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/domain/dto/IdNameDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/domain/dto/LoginUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/domain/dto/PageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/domain/query/PageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/enums/BaseEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/enums/CommonStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/enums/UserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/exceptions/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/exceptions/BizIllegalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/exceptions/CommonException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/exceptions/DbException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/exceptions/ForbiddenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/exceptions/RequestTimeoutException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/exceptions/UnauthorizedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/filters/RequestIdFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/ArrayUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/AspectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/AssertUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/BeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/BooleanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/ByteUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/CollUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/Convert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/CookieBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/EnumUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/HttpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/IoUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/MarkedRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/NumberUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/ObjectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/QrCodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/RandomUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/ReflectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/RequestIdUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/RequestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/SPELUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/SignUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/SqlWrapperUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/SwaggerUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/TjTemporalConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/TreeDataUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/UserContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/ViolationUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/utils/WebUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/validate/Checker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/validate/EnumValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/validate/EnumValueValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/validate/annotations/EnumValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/validate/annotations/ParamChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/resources/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-common/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/CourseApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/config/ThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/constants/CourseConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/constants/CourseErrorInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/constants/CourseStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/constants/RedisConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/constants/RedisContants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/constants/SubjectConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/controller/CatalogueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/controller/CourseInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/dto/CataSaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/dto/CataSubjectDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/dto/CateSimpleInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/dto/CategoryAddDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/dto/CategoryDisableOrEnableDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/dto/CategoryListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/dto/CategoryUpdateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/dto/CourseBaseInfoSaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/dto/CourseIdDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/dto/CourseMediaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/dto/CourseMediaSaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/dto/CoursePageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/dto/CourseSimpleInfoListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/dto/CourseTeacherSaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/dto/SubjectPageParamDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/dto/SubjectSaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/po/CataIdAndSubScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/po/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/po/Category3PO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/po/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/po/CourseCataSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/po/CourseCataSubjectDraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/po/CourseCatalogue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/po/CourseCatalogueDraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/po/CourseContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/po/CourseContentDraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/po/CourseDraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/po/CourseSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/po/CourseTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/po/CourseTeacherDraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/po/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/po/SubjectCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/po/SubjectUseNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/query/CoursePageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/CataSimpleInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/CataSimpleSubjectVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/CataSubjectVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/CataVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/CateSimpleInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/CategoryInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/CategoryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/ChapterVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/CourseAndSectionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/CourseBaseInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/CourseCataIdVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/CoursePageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/CourseSaveVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/CourseSimpleInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/CourseStatisticsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/CourseTeacherVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/NameExistVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/SectionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/SimpleCategoryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/SubjectInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/SubjectSimpleVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/domain/vo/SubjectVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/handler/CourseJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/mapper/CourseCataSubjectDraftMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/mapper/CourseCataSubjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/mapper/CourseCatalogueDraftMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/mapper/CourseCatalogueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/mapper/CourseContentDraftMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/mapper/CourseContentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/mapper/CourseDraftMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/mapper/CourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/mapper/CourseSubjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/mapper/CourseTeacherDraftMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/mapper/CourseTeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/mapper/SubjectCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/properties/CourseProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/service/ICourseCataSubjectDraftService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/service/ICourseCatalogueDraftService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/service/ICourseCatalogueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/service/ICourseDraftService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/service/ICourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/service/ICourseTeacherDraftService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/service/ICourseTeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/service/impl/CourseCataSubjectDraftServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/service/impl/CourseCatalogueDraftServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/service/impl/CourseCatalogueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/service/impl/CourseDraftServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/service/impl/CourseTeacherDraftServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/service/impl/CourseTeacherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/utils/CategoryDataWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/utils/CategoryDataWrapper2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/utils/CourseSaveBaseGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/java/com/tianji/course/utils/SubjectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/resources/bootstrap-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/resources/mapper/AvailablePolicy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/resources/mapper/CouponCalculate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/resources/mapper/CourseCataSubjectDraftMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/resources/mapper/CourseCataSubjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/resources/mapper/CourseCatalogueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/resources/mapper/CourseContentDraftMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/resources/mapper/CourseContentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/resources/mapper/CourseDraftMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/resources/mapper/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/resources/mapper/CourseSubjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/resources/mapper/CourseTeacherDraftMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-course/src/main/resources/mapper/CourseTeacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/ExamApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/constants/ExamErrorInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/constants/QuestionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/controller/QuestionBizController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/controller/QuestionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/domain/dto/QuestionFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/domain/po/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/domain/po/QuestionBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/domain/po/QuestionDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/domain/query/QuestionPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/domain/vo/QuestionDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/domain/vo/QuestionPageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/mapper/QuestionBizMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/mapper/QuestionDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/mapper/QuestionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/service/IQuestionBizService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/service/IQuestionDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/service/IQuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/service/impl/QuestionBizServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/service/impl/QuestionDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/java/com/tianji/exam/service/impl/QuestionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/resources/bootstrap-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/resources/mapper/QuestionBizMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/resources/mapper/QuestionDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-exam/src/main/resources/mapper/QuestionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-gateway/src/main/java/com/tianji/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-gateway/src/main/java/com/tianji/gateway/config/AuthProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-gateway/src/main/java/com/tianji/gateway/exception/handler/GatewayExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-gateway/src/main/java/com/tianji/gateway/filter/AccountAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-gateway/src/main/java/com/tianji/gateway/filter/RequestIdRelayFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-gateway/src/main/java/com/tianji/gateway/swagger/GatewaySwaggerResourceProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-gateway/src/main/java/com/tianji/gateway/swagger/SwaggerResourceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-gateway/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-gateway/src/main/resources/bootstrap-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/LearningApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/config/MybatisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/constants/LearningConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/constants/RedisConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/controller/InteractionQuestionAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/controller/InteractionQuestionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/controller/InteractionReplyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/controller/LearningLessonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/controller/LearningRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/controller/PointsBoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/controller/PointsBoardSeasonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/controller/PointsRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/controller/SignRecordsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/dto/LearningPlanDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/dto/LearningRecordFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/dto/QuestionFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/dto/ReplyDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/po/InteractionQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/po/InteractionReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/po/LearningLesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/po/LearningRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/po/PointsBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/po/PointsBoardSeason.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/po/PointsRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/query/PointsBoardQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/query/QuestionAdminPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/query/QuestionPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/query/ReplyPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/LearningLessonVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/LearningPlanPageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/LearningPlanVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/PointsBoardItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/PointsBoardSeasonVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/PointsBoardVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/PointsStatisticsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/QuestionAdminVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/QuestionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/ReplyVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/SignRecordVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/SignResultVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/enums/LessonStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/enums/PlanStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/enums/PointsRecordType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/enums/QuestionStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/enums/SectionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/mapper/InteractionQuestionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/mapper/InteractionReplyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/mapper/LearningLessonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/mapper/LearningRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/mapper/PointsBoardMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/mapper/PointsBoardSeasonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/mapper/PointsRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/mq/LearningPointsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/mq/LessonChangeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/mq/LessonEXListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/mq/LikedRecordListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/mq/message/SignInMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/service/IInteractionQuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/service/IInteractionReplyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/service/ILearningLessonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/service/ILearningRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/service/IPointsBoardSeasonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/service/IPointsBoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/service/IPointsRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/service/ISignRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/service/Impl/ISignRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/service/Impl/InteractionQuestionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/service/Impl/InteractionReplyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/service/Impl/LearningLessonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/service/Impl/LearningRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/service/Impl/PointsBoardSeasonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/service/Impl/PointsBoardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/service/Impl/PointsRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/task/PointsBoardPersistentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/utils/DelayTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/utils/LearningRecordDelayTaskHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/utils/TableInfoContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/resources/bootstrap-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/resources/mapper/InteractionQuestionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/resources/mapper/InteractionReplyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/resources/mapper/LearningLessonMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/resources/mapper/LearningRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/resources/mapper/PointsBoardMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/resources/mapper/PointsBoardSeasonMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/resources/mapper/PointsRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/test/java/com/lx/CaffeineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/test/java/com/lx/ExecutorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/test/java/com/lx/MPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-api/src/main/java/com/tianji/pay/sdk/client/PayClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-api/src/main/java/com/tianji/pay/sdk/config/PayApiImportConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-api/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-domain/src/main/java/com/tianji/pay/sdk/constants/PayChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-domain/src/main/java/com/tianji/pay/sdk/constants/PayConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-domain/src/main/java/com/tianji/pay/sdk/constants/PayErrorInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-domain/src/main/java/com/tianji/pay/sdk/constants/PayType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-domain/src/main/java/com/tianji/pay/sdk/constants/RefundChannelEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-domain/src/main/java/com/tianji/pay/sdk/dto/PayApplyDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-domain/src/main/java/com/tianji/pay/sdk/dto/PayChannelDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-domain/src/main/java/com/tianji/pay/sdk/dto/PayResultDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-domain/src/main/java/com/tianji/pay/sdk/dto/RefundApplyDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-domain/src/main/java/com/tianji/pay/sdk/dto/RefundResultDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/PayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/constants/NotifyStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/controller/NotifyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/controller/PayChannelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/controller/PayOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/controller/RefundOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/domain/po/PayChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/domain/po/PayOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/domain/po/RefundOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/mapper/PayChannelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/mapper/PayOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/mapper/RefundOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/service/INotifyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/service/IPayChannelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/service/IPayOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/service/IRefundOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/service/impl/NotifyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/service/impl/PayChannelServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/service/impl/PayOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/service/impl/RefundOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/tasks/PayOrderCheckTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/tasks/RefundOrderCheckTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/third/CommonPayProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/third/IPayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/third/ali/AliPayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/third/ali/config/AliPayConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/third/ali/config/AliPayProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/third/model/PayStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/third/model/PayStatusResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/third/model/PrepayResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/third/model/RefundResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/third/model/RefundStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/third/wx/WxPayClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/third/wx/WxPayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/third/wx/config/WxConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java/com/tianji/pay/third/wx/config/WxPayProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/resources/bootstrap-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/resources/mapper/LearningConstants.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/resources/mapper/PayChannelMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/resources/mapper/TradeClient.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/test/java/com/tianji/pay/AliPayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-pay/tj-pay-service/src/test/java/com/tianji/pay/WxPayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/java/com/tianji/remark/RemarkApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/java/com/tianji/remark/constants/RedisConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/java/com/tianji/remark/controller/LikedRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/java/com/tianji/remark/domain/dto/LikeRecordFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/java/com/tianji/remark/domain/dto/LikedTimesDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/java/com/tianji/remark/domain/po/LikedRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/java/com/tianji/remark/mapper/LikedRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/java/com/tianji/remark/service/ILikedRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/java/com/tianji/remark/service/Impl/LikedRecordRedisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/java/com/tianji/remark/service/Impl/LikedRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/java/com/tianji/remark/task/LikedTimesCheckTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/resources/bootstrap-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/resources/mapper/LearningConstants.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/TradeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/config/ThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/config/TradeProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/constants/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/constants/RefundStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/constants/TradeErrorInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/controller/OrderDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/controller/PayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/controller/RefundApplyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/dto/ApproveFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/dto/CartsAddDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/dto/OrderDelayQueryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/dto/PayApplyFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/dto/PlaceOrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/dto/RefundCancelDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/dto/RefundFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/po/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/po/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/po/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/po/RefundApply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/query/OrderDetailPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/query/OrderPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/query/RefundApplyPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/vo/CartVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/vo/OrderConfirmVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/vo/OrderCourseVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/vo/OrderDetailAdminVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/vo/OrderDetailPageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/vo/OrderDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/vo/OrderPageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/vo/OrderProgressNodeVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/vo/OrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/vo/PayChannelVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/vo/PlaceOrderResultVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/vo/RefundApplyPageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/vo/RefundApplyVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/handler/PayMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/handler/RefundJobHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/mapper/CartMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/mapper/OrderDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/mapper/RefundApplyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/service/ICartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/service/IOrderDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/service/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/service/IPayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/service/IRefundApplyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/service/impl/OrderDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/service/impl/PayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/service/impl/RefundApplyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/resources/bootstrap-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/resources/mapper/CartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/resources/mapper/OrderDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/main/resources/mapper/RefundApplyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-trade/src/test/java/com/tianji/trade/mapper/OrderMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/constants/UserConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/constants/UserErrorInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/controller/StaffController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/controller/TeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/domain/dto/StudentFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/domain/dto/UserFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/domain/po/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/domain/po/UserDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/domain/query/UserPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/domain/vo/StaffVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/domain/vo/StudentPageVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/domain/vo/TeacherPageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/domain/vo/UserBasicVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/domain/vo/UserDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/enums/UserStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/mapper/UserDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/service/ICodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/service/IStaffService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/service/ITeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/service/IUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/service/impl/CodeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/service/impl/StaffServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/service/impl/TeacherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/service/impl/UserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/java/com/tianji/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/resources/bootstrap-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/resources/mapper/UserDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-user/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,23 +725,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;H:/code/ReHaiDaXueTang&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Lombok&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;68352e1ce65e33c3725c80389847308f&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-18",
+    "last_opened_file_path": "H:/code/ReHaiDaXueTang",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Lombok",
+    "spring.configuration.checksum": "50925d0c062d6ba433199eaf11b75a53"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -381,7 +1023,8 @@
       <workItem from="1711075310739" duration="1194000" />
       <workItem from="1712803513150" duration="2362000" />
       <workItem from="1712807433799" duration="164000" />
-      <workItem from="1712807613463" duration="300000" />
+      <workItem from="1712807613463" duration="1147000" />
+      <workItem from="1712808777197" duration="344000" />
     </task>
     <task id="LOCAL-00001" summary="解决删除订单失败的问题">
       <created>1708086643665</created>
@@ -481,7 +1124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712807640497</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="项目基础代码拷贝">
+      <created>1712807934374</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1712807934374</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +1156,10 @@
     <MESSAGE value="完成了问答系统、点赞系统、积分系统、排行榜系统的开发与测试" />
     <MESSAGE value="测试" />
     <MESSAGE value="README编写" />
-    <option name="LAST_COMMIT_MESSAGE" value="README编写" />
+    <MESSAGE value="项目基础代码拷贝" />
+    <MESSAGE value="项目起始代码以及个人编写代码拷贝" />
+    <MESSAGE value="项目起始代码以及个人编写代码（点赞系统、视频播放进度系统、积分排行榜系统的开发与测试）拷贝" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目起始代码以及个人编写代码（点赞系统、视频播放进度系统、积分排行榜系统的开发与测试）拷贝" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

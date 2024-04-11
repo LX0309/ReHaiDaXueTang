@@ -13,15 +13,11 @@
         <module>tj-api</module>
         <module>tj-gateway</module>
         <module>tj-user</module>
-        <module>tj-message</module>
-        <module>tj-media</module>
         <module>tj-course</module>
-        <module>tj-search</module>
         <module>tj-learning</module>
         <module>tj-pay</module>
         <module>tj-trade</module>
         <module>tj-exam</module>
-        <module>tj-data</module>
         <module>tj-remark</module>
     </modules>
     <packaging>pom</packaging>
