@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b8925e-81c1-4c12-9e37-78e7a039fc1d" name="变更" comment="README编写">
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -395,7 +400,7 @@
       <workItem from="1712807433799" duration="164000" />
       <workItem from="1712807613463" duration="1147000" />
       <workItem from="1712808777197" duration="344000" />
-      <workItem from="1712814348771" duration="7587000" />
+      <workItem from="1712814348771" duration="8853000" />
     </task>
     <task id="LOCAL-00001" summary="解决删除订单失败的问题">
       <created>1708086643665</created>
@@ -530,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712822602061</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="README编写">
+      <created>1712823987949</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1712823987949</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
